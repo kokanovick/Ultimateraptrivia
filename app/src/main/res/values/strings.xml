@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ultimate rap trivia</string>
+    <string name="btnStart">START</string>
+    <string name="btnExit">IZLAZ</string>
+    <string name="tvScore">Rezultat: 0</string>
+    <string name="tvQuestionsCounter">Pitanje 1/x</string>
+    <string name="tvTimer">30</string>
+    <string name="tvQuestions">Postavlja se određeno pitanje?</string>
+    <string name="rbFirst">Prvi odgovor</string>
+    <string name="rbSecond">Drugi odgovor</string>
+    <string name="rbThird">Treći odgovor</string>
+    <string name="rbFourth">Četvrti odgovor</string>
+    <string name="btnConfirm">POTVRDI ODGOVOR</string>
+    <string name="tvSSQuestion">Želite li spremiti ostvaren rezultat?</string>
+    <string name="btnYes">ŽELIM</string>
+    <string name="btnNo">NE ŽELIM</string>
+    <string name="tvInput">Unesite ime:</string>
+    <string name="hint">Potrebno je unijeti ime.</string>
+    <string name="affirmative">POTVRDI</string>
+    <string name="btnNewGame">ZAPOČNI NOVU IGRU</string>
+    <string name="totalScore">UKUPAN REZULTAT: </string>
+    <string name="add">DODAJ</string>
+    <string name="remove">IZBRIŠI</string>
+    <string name="name">IME: </string>
+</resources>

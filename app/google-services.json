@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1020313322998",
+    "firebase_url": "https://recyclerview-8bb28-default-rtdb.firebaseio.com",
+    "project_id": "recyclerview-8bb28",
+    "storage_bucket": "recyclerview-8bb28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020313322998:android:92b2afbcc9fbae8a56b3d7",
+        "android_client_info": {
+          "package_name": "com.example.ultimateraptrivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020313322998-pum3v6c2u1t10pbbd6d92tjrjnvi4279.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFfuOqTQjKdKFFl0guaz57dXxmB094qk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020313322998-pum3v6c2u1t10pbbd6d92tjrjnvi4279.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

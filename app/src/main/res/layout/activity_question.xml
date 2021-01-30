@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".QuestionActivity"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/tvViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvScore"
+        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/tvQuestionCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvViewScore"
+        android:text="@string/tvQuestionsCounter"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTimer"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        />
+
+    <TextView
+        android:id="@+id/tvQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvQuestions"
+        android:layout_above="@id/rGroup"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:background = "@color/white"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/table"
+        />
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="50dp"
+        >
+
+        <RadioButton
+            android:id="@+id/rbFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbFirst"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/rbSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbSecond"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/rbThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbThird"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/rbFourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbFourth"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/black"
+            />
+        
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConfirm"
+        android:layout_below="@id/rGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+</RelativeLayout>
